@@ -1,0 +1,68 @@
+.container {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  max-width: 600px;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.display-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.display-list li {
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #e3e6e8;
+  margin-bottom: 1rem;
+}
+
+.display-name {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.rocket-number,
+.rocket-name,
+.rocket-date {
+  margin-right: 0.25rem;
+}
+
+.rocket-details {
+  margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.rocket-all {
+  text-align: center;
+  font-weight: 700;
+}
+
+/* Loader */
+.spinner {
+  text-align: center;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid;
+  border-color: #FF3D00 transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
