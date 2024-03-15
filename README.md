@@ -9,3 +9,7 @@ Open a terminal inside the app and run the command `npm install` to install the 
 ## After downloading zip file
 
 Extract the repo in a specified folder. Then open a terminal inside the project folder and run the command `npm install` to install the dependencies.
+
+## Run the project
+
+On the command terminal, run the command `npm run dev` to run the project locally.
